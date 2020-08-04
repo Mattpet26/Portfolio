@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(10, 25, 47);
+  color: #f9f9f9;
+  margin: 3% auto 3% auto;
+  padding-bottom: 3%;
+  box-shadow: 0px 1px 6px 2px #888888;
+  width: 95%;
+}
+
+header{
+  padding: 15px;
+  font-size: large;
+  float: right;
+  color: aquamarine;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 10px;
+  padding-top: 25px;
+  color: aquamarine;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px;
+  opacity: .75;
+}
+
+#banner {
+  height: 422px;
+  width: 1400px;
+  padding-left: 125px;
+}
+
+#intro{
+  padding-bottom: 30px;
+}
+
+body > #intro > p {
+  padding: 10px;
+  font-size: large;
+}
+
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 30px;
+  padding: 10px;
+  color: aquamarine;
+}
+
+body > #about > p { 
+  padding: 10px;
+  font-size: large;
+  width: 960px;
+  float: left;
+}
+
+#aboutmeimg{
+  height: 100px;
+  width: 100px;
+  padding-left: 15px;
+}
+
+#workhist{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h5 {
+  font-size: 30px;
+  padding: 10px;
+  color: aquamarine;
+}
+
+body > #workhist > p {
+  padding: 10px;
+  font-size: large;
+  width: 960px;
+}
+
+a {
+  color: aquamarine;
+}
+
+#temp {
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+}
+
+h6 {
+  font-size: 30px;
+  padding: 10px;
+  color: aquamarine;
+}
+
+#contact{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body > #contact > ul {
+  padding: 10px;
+  font-size: large;
+  width: 960px;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: smaller;
+}
+

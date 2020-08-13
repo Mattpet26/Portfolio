@@ -15,27 +15,27 @@ header{
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 26px;
   margin: 10px;
   padding-top: 25px;
   color: aquamarine;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 48px;
   margin: 10px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 38px;
   margin: 10px;
-  opacity: .75;
+  opacity: .65;
 }
 
 #banner {
   height: 422px;
   width: 1400px;
-  padding-left: 125px;
+  padding-left: 400px;
 }
 
 #intro{
@@ -44,12 +44,12 @@ h3 {
 
 body > #intro > p {
   padding: 10px;
-  font-size: large;
 }
 
 #about {
   padding-top: 30px;
   padding-bottom: 30px;
+  overflow: auto;
 }
 
 h4 {
@@ -60,7 +60,6 @@ h4 {
 
 body > #about > p { 
   padding: 10px;
-  font-size: large;
   width: 960px;
   float: left;
 }
@@ -84,7 +83,6 @@ h5 {
 
 body > #workhist > p {
   padding: 10px;
-  font-size: large;
   width: 960px;
 }
 
@@ -107,17 +105,19 @@ h6 {
 #contact{
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: larger;
 }
 
 body > #contact > ul {
   padding: 10px;
-  font-size: large;
   width: 960px;
 }
 
 footer {
   text-align: center;
   padding: 12px;
-  font-size: smaller;
 }
 
+section > p {
+  font-size: 20px;
+}
